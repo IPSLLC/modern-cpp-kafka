@@ -1,0 +1,23 @@
+Source: modern-cpp-kafka
+Priority: extra
+Maintainer: Andrey Minov <minov@ips.su>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Section: libs
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/fastcgi.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/fastcgi.git;a=summary
+
+Package: modern-cpp-kafka-dev
+Section: libdevel
+Architecture: any
+Depends: modern-cpp-kafka (= ${binary:Version})
+Description: modern-cpp-kafka cpp headers package (IPS)
+ <insert long description, indented with spaces>
+
+Package: modern-cpp-kafka
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: modern-cpp-kafka empty package (IPS)
+ <insert long description, indented with spaces>
