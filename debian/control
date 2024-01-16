@@ -11,13 +11,14 @@ Homepage: <insert the upstream URL, if relevant>
 Package: modern-cpp-kafka-dev
 Section: libdevel
 Architecture: any
-Depends: modern-cpp-kafka (= ${binary:Version})
+#Depends: modern-cpp-kafka (= ${binary:Version})
+Depends:
 Description: modern-cpp-kafka cpp headers package (IPS)
  <insert long description, indented with spaces>
 
-Package: modern-cpp-kafka
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: modern-cpp-kafka empty package (IPS)
- <insert long description, indented with spaces>
+#Package: modern-cpp-kafka
+#Section: libs
+#Architecture: any
+#Depends: ${shlibs:Depends}, ${misc:Depends}
+#Description: modern-cpp-kafka empty package (IPS)
+# <insert long description, indented with spaces>
