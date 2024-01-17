@@ -12,7 +12,7 @@ Package: modern-cpp-kafka-dev
 Section: libdevel
 Architecture: any
 #Depends: modern-cpp-kafka (= ${binary:Version})
-Depends:
+Depends: librdkafka-dev
 Description: modern-cpp-kafka cpp headers package (IPS)
  <insert long description, indented with spaces>
 
